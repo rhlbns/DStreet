@@ -33,6 +33,12 @@ Moving forward I will integrate more providers such as Zerodha/Upstock etc with 
     print (candles)
 ```
 
+## Upcoming Features
+- Indefinate candles download - currrent version only allows us to access 500 candles per request.
+- F&O candles with OI
+- Live ticker data for equity
+- Live ticker data for F&O
+
 ## Authors
 
 - [@rhlbns](https://github.com/rhlbns)
