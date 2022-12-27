@@ -26,10 +26,10 @@ class Helper:
         dt_str_new = dt.strftime('%Y-%m-%d %H:%M')
         return dt_str_new
 
-    def convert_dt_to_str(dt):
+    def convert_dt_to_str(self, dt):
         dt_str = dt.strftime('%Y-%m-%d %H:%M')
         return dt_str
 
-    def convert_str_to_dt(dt_str):
+    def convert_str_to_dt(self, dt_str):
         dt = datetime.strptime(dt_str, '%Y-%m-%d %H:%M')
         return dt
